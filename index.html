@@ -7,7 +7,6 @@
     <title>New York Times</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7d6392431b.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
@@ -22,12 +21,12 @@
                 <a href="https://www.nytimes.com/"><img src="img/logo_NYT.png" alt="New York Times"></a>
             </div>
             <div class="nav-right">
-                <button class="btn-right btn-subscribe">
-                    <a class="btn-anchor" href="https://www.nytimes.com/subscription?campaignId=797YR" target="_blank">Subscribe Now</a>
-                </button>
-                <button class="btn-right btn-login">
-                    <a class="btn-anchor" href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi" target="_blank">Login</a>
-                </button>
+                <a class="btn-anchor" href="https://www.nytimes.com/subscription?campaignId=797YR" target="_blank">
+                    <button class="btn-right btn-subscribe">Subscribe Now</button>
+                </a>
+                <a class="btn-anchor" href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi" target="_blank">
+                    <button class="btn-right btn-login">Login</button>
+                </a>
             </div>
 
         </nav>
@@ -44,6 +43,7 @@
             </figure>
         </section>
         <section class="article-part-two">
+            <h2></h2>
             <p>By <a href="https://www.nytimes.com/by/dennis-overbye">Dennis Overbye</a></p>
             <div class="date-icons">
                 <div class="date">
@@ -140,6 +140,7 @@
             </div>
         </section>
         <section class="grid-one">
+            <h2></h2>
             <div class="grid-one-para">
                 <p><span style="font-weight:700">The Theory of Inflation</span><br> Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang
                     13.8 billion years ago.
@@ -210,12 +211,14 @@
                         knocked on his door with a bottle of Champagne</a> to tell him the news.
                 </p>
             </div>
-            <iframe width="600" height="319" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <figure>
+                <iframe src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
-            <figcaption class="caption-image-below">
-                Stanford Professor Andrei Linde celebrates physics breakthrough <span style="font-size: 0.73rem;">
+                <figcaption class="caption-image-below">
+                    Stanford Professor Andrei Linde celebrates physics breakthrough <span style="font-size: 0.73rem;">
                     Video by Stanford University</span>
-            </figcaption>
+                </figcaption>
+            </figure>
             <div class="paragraphs">
                 <p>
                     Confused, Dr. Linde called out to his wife, asking if she had ordered anything.
@@ -342,9 +345,9 @@
                 </div>
                 <div class="comment-icons">
                     <div class="read-comment">
-                        <button class="btn-comment">
-                                <a class="btn-anchor" href="#">READ 615 COMMENTS</a>
-                            </button>
+                        <a class="btn-anchor" href="#">
+                            <button class="btn-comment">READ 615 COMMENTS</button>
+                        </a>
                     </div>
                     <div class="icons">
                         <a href="#"><i class="fab fa-facebook icon-round icon-all"></i></a>
@@ -361,6 +364,7 @@
     <div class="tail-part">
         <div class="tail-part-top">
             <section class="grid-two">
+                <h2></h2>
                 <hr class="dark-line line">
                 <div class="grid-two-upper-para">
                     <p class="grid-title">
@@ -370,8 +374,10 @@
                 <div class="grid-two-upper-image">
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-1.jpg" alt="Giant Magellan Telescope">
-                            <figcaption class="grid-two-caption">Giant Magellan Telescope</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-1.jpg" alt="Giant Magellan Telescope">
+                                <figcaption class="grid-two-caption">Giant Magellan Telescope</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 American Astronomy’s Future Goes on Trial in Washington
                             </p>
@@ -382,8 +388,10 @@
                     </div>
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-2.jpg" alt="Europe-Russia Mars Mission">
-                            <figcaption class="grid-two-caption">European Space Agency</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-2.jpg" alt="Europe-Russia Mars Mission">
+                                <figcaption class="grid-two-caption">European Space Agency</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 Coronavirus, Testing Delays Push Europe-Russia Mars Mission to 2022
                             </p>
@@ -394,8 +402,10 @@
                     </div>
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-3.jpg" alt="Saturn and Its Moon">
-                            <figcaption class="grid-two-caption">JPL/NASA</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-3.jpg" alt="Saturn and Its Moon">
+                                <figcaption class="grid-two-caption">JPL/NASA</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 Why Didn’t Saturn Eat Titan, Its Biggest Moon?
                             </p>
@@ -406,8 +416,10 @@
                     </div>
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-4.jpg" alt="The Black Hole">
-                            <figcaption class="grid-two-caption">Chandra X-Ray Observatory</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-4.jpg" alt="The Black Hole">
+                                <figcaption class="grid-two-caption">Chandra X-Ray Observatory</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 This Black Hole Blew a Hole in the Cosmos
                             </p>
@@ -418,8 +430,10 @@
                     </div>
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-5.jpg" alt="NASA-Boeing Starliner">
-                            <figcaption class="grid-two-caption">Joe Skipper/Reuters</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-5.jpg" alt="NASA-Boeing Starliner">
+                                <figcaption class="grid-two-caption">Joe Skipper/Reuters</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 ‘Close Call’: NASA-Boeing Investigation of Starliner Flight Finds Lapses
                             </p>
@@ -430,8 +444,10 @@
                     </div>
                     <div class="grid-two-item">
                         <a class="grid-two-anchor" href="#">
-                            <img class="grid-two-image" src="img/img-grid-6.jpg" alt="Perseverance Rover">
-                            <figcaption class="grid-two-caption">Robyn Beck/Agence France-Presse — Getty Images</figcaption>
+                            <figure>
+                                <img class="grid-two-image" src="img/img-grid-6.jpg" alt="Perseverance Rover">
+                                <figcaption class="grid-two-caption">Robyn Beck/Agence France-Presse — Getty Images</figcaption>
+                            </figure>
                             <p class="grid-two-img-desc">
                                 NASA’s Mars 2020 Rover Gets New, Official Name: Perseverance
                             </p>
@@ -451,8 +467,10 @@
                     <div class="grid-two-lower-image">
                         <div class="grid-two-item">
                             <a class="grid-two-anchor" href="#">
-                                <img class="grid-two-image" src="img/img-grid-7.jpg" alt="Saudi Crown Prince">
-                                <figcaption class="grid-two-caption">Matt Dorfman; Photos from Agence France-Presse — Getty Images; Bandar Algaloud EPA, via Shutterstock</figcaption>
+                                <figure>
+                                    <img class="grid-two-image" src="img/img-grid-7.jpg" alt="Saudi Crown Prince">
+                                    <figcaption class="grid-two-caption">Matt Dorfman; Photos from Agence France-Presse — Getty Images; Bandar Algaloud EPA, via Shutterstock</figcaption>
+                                </figure>
                                 <p class="grid-two-img-desc">
                                     ‘MBS’ Chronicles the Shockingly Young, Powerful and Ruthless Saudi Crown Prince
                                 </p>
@@ -463,8 +481,10 @@
                         </div>
                         <div class="grid-two-item">
                             <a class="grid-two-anchor" href="#">
-                                <img class="grid-two-image" src="img/img-grid-8.jpg" alt="Rewatching 'Contagion'">
-                                <figcaption class="grid-two-caption">Warner Bros.</figcaption>
+                                <figure>
+                                    <img class="grid-two-image" src="img/img-grid-8.jpg" alt="Rewatching 'Contagion'">
+                                    <figcaption class="grid-two-caption">Warner Bros.</figcaption>
+                                </figure>
                                 <p class="grid-two-img-desc">
                                     For Me, Rewatching ‘Contagion’ Was Fun, Until It Wasn’t
                                 </p>
@@ -475,8 +495,10 @@
                         </div>
                         <div class="grid-two-item">
                             <a class="grid-two-anchor" href="#">
-                                <img class="grid-two-image" src="img/img-grid-9.jpg" alt="colourful illustration">
-                                <figcaption class="grid-two-caption">Illustration by Guillem Casasus; Photo: Getty Images</figcaption>
+                                <figure>
+                                    <img class="grid-two-image" src="img/img-grid-9.jpg" alt="colourful illustration">
+                                    <figcaption class="grid-two-caption">Illustration by Guillem Casasus; Photo: Getty Images</figcaption>
+                                </figure>
                                 <p class="grid-two-img-desc">
                                     This Time Really Is Different
                                 </p>
@@ -556,9 +578,9 @@
             <div class="quick-links-all">
                 <div class="quick-links-grid">
                     <section>
+                        <h2></h2>
                         <ul class="lists-link-all">
-                            <li><strong>NEWS</strong></a>
-                            </li>
+                            <li><strong>NEWS</strong></li>
                             <li><a href="#">Home Page</a></li>
                             <li><a href="#">World</a></li>
                             <li><a href="#">U.S.</a></li>
@@ -575,9 +597,9 @@
                         </ul>
                     </section>
                     <section>
+                        <h2></h2>
                         <ul class="lists-link-all">
-                            <li><strong>OPINION</strong></a>
-                            </li>
+                            <li><strong>OPINION</strong></li>
                             <li><a href="#">Today's Opinion</a></li>
                             <li><a href="#">Op-Ed Columnists</a></li>
                             <li><a href="#">Editorials</a></li>
@@ -588,9 +610,9 @@
                         </ul>
                     </section>
                     <section>
+                        <h2></h2>
                         <ul class="lists-link-all">
-                            <li><strong>ARTS</strong></a>
-                            </li>
+                            <li><strong>ARTS</strong></li>
                             <li><a href="#">Today's Arts</a></li>
                             <li><a href="#">Art & Design</a></li>
                             <li><a href="#">Books</a></li>
@@ -604,9 +626,9 @@
                         </ul>
                     </section>
                     <section>
+                        <h2></h2>
                         <ul class="lists-link-all">
-                            <li><strong>LIVING</strong></a>
-                            </li>
+                            <li><strong>LIVING</strong></li>
                             <li><a href="#">Automobiles</a></li>
                             <li><a href="#">Crossword</a></li>
                             <li><a href="#">Education</a></li>
@@ -623,9 +645,9 @@
                         </ul>
                     </section>
                     <section>
+                        <h2></h2>
                         <ul class="lists-link-all">
-                            <li><strong>MORE</strong></a>
-                            </li>
+                            <li><strong>MORE</strong></li>
                             <li><a href="#">Reader Center</a></li>
                             <li><a href="#">Wirecutter</a></li>
                             <li><a href="#">Live Events</a></li>
@@ -644,8 +666,7 @@
                 </div>
                 <div class="quick-links-right">
                     <ul class="lists-link-all list-right1">
-                        <li><strong>SUBSCRIBE</strong></a>
-                        </li>
+                        <li><strong>SUBSCRIBE</strong></li>
                         <li><a href="#"><strong>Home Delivery</strong></a></li>
                         <li><a href="#"><strong>Digital Subscriptions</strong></a></li>
                         <li><a href="#"><strong>Crossword</strong></a></li>
