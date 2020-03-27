@@ -244,18 +244,47 @@ h3 {
 }
 .editor-pick {
     float: right;
+    width: 25%;
+    position: relative;
+    bottom: 10em;
+    left: 10em;
 }
-.imagelink .image {
+.imagelinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+.imagelinks img {
     width: 80px;
     height: 80px;
 }
-.imagelink .link {
-    font-family: nyt-cheltenham-small, georgia, "times new roman";
-    font-weight: 700;
+.imagelinks p {
+    width: 140px;
+    height: 70px;
     font-size: 14px;
     line-height: 17px;
+    padding: 0 0 0 7px;
+    margin-top: 0;
+}
+.imagelinks p>a {
+    text-decoration: none;
+    color: #333;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+.imagelinks p>a:hover {
+    text-decoration: underline;
+}
+.editor-pick-links .link {
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-size: 14px;
+    line-height: 10px;
     width: 100%;
     color: #333;
+    text-decoration: none;
+}
+.editor-pick-links .link:hover {
+    text-decoration: underline;
 }
 .grid-one {
     text-align: left;
